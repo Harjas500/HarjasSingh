@@ -24,7 +24,7 @@ const experience = [
     type: "work",
     title: "Co-Founder & Events Director",
     organization: "Punjabi Students Association UniMelb",
-    period: "Jun 2026 – Present",
+    period: "Sep 2025 – Jun 2026",
     description: "Co-founded the club and oversee planning and coordination of events, promotions, and collaborations. Growing the club's community through outreach, partnerships, and consistent member engagement.",
     highlights: ["Leadership", "Events", "Community"],
   },
