@@ -36,7 +36,7 @@ const projects = [
     title: "Freckers AI Agent",
     description: "Implemented Minimax + Alpha-Beta pruning agent in Python featuring 1-ply move ordering, BFS-based multi-jump generation, and custom evaluation heuristic. Validated through extensive debugging and opponent testing.",
     tags: ["Python", "AI", "Minimax", "Game Theory"],
-    github: "https://github.com",
+    github: "https://github.com/Harjas500/freckers-ai-agent",
     query: "freckers_ai",
   },
   {
