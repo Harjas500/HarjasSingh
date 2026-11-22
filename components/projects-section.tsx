@@ -6,9 +6,9 @@ import { TerminalWindow } from "./terminal-window"
 const projects = [
   {
     title: "NYC Taxi Revenue Forecasting",
-    description: "Developed a scalable data pipeline using Python/PySpark to process large-scale NYC taxi datasets with integrated external data sources. Integrated zone-based geospatial data to analyse spatial demand distribution and revenue hotspots. Trained Linear Regression and Random Forest models with strong predictive accuracy.",
-    tags: ["Python", "PySpark", "ML", "Geospatial"],
-    github: "https://github.com",
+    description: "Built an end-to-end data science pipeline using Python and PySpark to analyse 2024 NYC Yellow Taxi data, integrating holiday, special event and geospatial datasets. Performed exploratory analysis and feature engineering to uncover revenue patterns, then developed Linear Regression and Random Forest models. The Random Forest model achieved an R² of 0.933, outperforming the baseline model.",
+    tags: ["Python", "PySpark", "ML","Pandas", "Scikit-learn", "Geospatial"],
+    github: "https://github.com/Harjas500/nyc-taxi-revenue-forecasting",
     query: "nyc_taxi_forecast",
   },
   {
