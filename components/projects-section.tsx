@@ -22,14 +22,12 @@ const projects = [
     title: "Conference Track-r Database System",
     description: "Designed and queried a relational MySQL database modelling academic conference submissions, peer review workflows, and researcher supervision hierarchies across 10+ interrelated tables. Implemented advanced SQL including recursive self-joins, self-joining conference pairs, and correlated subqueries.",
     tags: ["MySQL", "SQL", "Database Design", "Data Modelling"],
-    github: "https://github.com",
     query: "conference_trackr",
   },
   {
     title: "Traffic Sign Classification",
     description: "Built a hybrid classifier combining HOG, color features, and CNN using an ensemble of Random Forest, Logistic Regression, and deep learning. Applied feature selection and achieved 95% accuracy on the German Traffic Sign dataset.",
     tags: ["Python", "CNN", "Scikit-learn", "Deep Learning"],
-    github: "https://github.com",
     query: "traffic_classifier",
   },
   {
@@ -43,14 +41,12 @@ const projects = [
     title: "Chessformer AI Solver",
     description: "Developed a C-based AI solver for Chessformer using Dijkstra's algorithm, optimized with priority queues, state pruning, and memory optimization for efficient pathfinding.",
     tags: ["C", "Algorithms", "Data Structures", "Optimization"],
-    github: "https://github.com",
     query: "chessformer_solver",
   },
   {
     title: "Book Recommendation & Analysis",
     description: "Applied machine learning models with Python, Pandas, and scikit-learn to generate book recommendations and insights from online reviews.",
     tags: ["Python", "ML", "Pandas", "Scikit-learn"],
-    github: "https://github.com",
     query: "book_recommender",
   },
 ]
@@ -66,7 +62,7 @@ export function ProjectsSection() {
               <span className="text-primary">FROM</span> portfolio.projects<br />
               <span className="text-primary">WHERE</span> featured = <span className="text-chart-4">TRUE</span><br />
               <span className="text-primary">ORDER BY</span> impact_score <span className="text-primary">DESC</span><br />
-              <span className="text-primary">LIMIT</span> <span className="text-chart-4">7</span>;
+              <span className="text-chart-4">LIMIT</span> <span className="text-chart-4">7</span>;
             </code>
           </TerminalWindow>
         </div>
