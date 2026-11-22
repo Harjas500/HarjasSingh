@@ -48,7 +48,7 @@ export function HeroSection() {
             </div>
 
             <div className="flex gap-4 pt-4">
-              <a href="https://github.com/harjassingh" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://github.com/Harjas500" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" className="text-muted-foreground hover:text-primary transition-colors">
                 <Github className="w-5 h-5" />
               </a>
               <a href="https://www.linkedin.com/in/harjas-singh-087675354/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
