@@ -15,7 +15,7 @@ const projects = [
     title: "BNPL Merchant Ranking System",
     description: "Built an automated Python/PySpark ETL pipeline to ingest, clean, and validate large merchant, consumer, and transaction datasets. Engineered features using ABS geospatial data, demographic variables, spend behaviour, and fraud-delta signals. Developed a multi-factor ranking model to generate Top 100 merchants.",
     tags: ["Python", "PySpark", "ETL", "Feature Engineering"],
-    github: "https://github.com",
+    github: "https://github.com/Harjas500/bnpl-merchant-ranking-system",
     query: "bnpl_ranking",
   },
   {
