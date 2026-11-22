@@ -54,15 +54,7 @@ const education = [
     period: "2022",
     description: "Percentage: 95%",
     highlights: ["Science", "Mathematics", "Economics"],
-  },
-  {
-    type: "certification",
-    title: "AWS Certified Cloud Practitioner",
-    organization: "Amazon Web Services",
-    period: "Expected May 2026",
-    description: "Foundational cloud certification covering AWS core services, security, architecture, and billing.",
-    highlights: ["AWS", "Cloud", "Certification"],
-  },
+  }
 ]
 
 export function ExperienceSection() {
